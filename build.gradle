@@ -29,7 +29,6 @@ android {
 		targetSdkVersion 28
 
 		externalNativeBuild.ndkBuild.arguments '-j4'
-		ndkVersion = "20.0.5594570"
 
 		// Set ABI_FILTERS in your gradle.properties file
 		if (project.hasProperty('ABI_FILTERS')) {
